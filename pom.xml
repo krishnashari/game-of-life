@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://18.207.130.253:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
+    <distributionManagement>
+  <repository>
+    <id>thirdparty</id>
+    <url>http://18.207.130.253:8081/nexus/content/repositories/thirdparty</url>
+  </repository>
+</distributionManagement>
 </project>
